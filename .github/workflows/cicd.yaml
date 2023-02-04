@@ -35,4 +35,8 @@ jobs:
       - name: Test Code
         run: ./gradlew test
 
+    message:
+      name: Call Message
+      uses: ./.github/workflows/test.yaml
+
 
