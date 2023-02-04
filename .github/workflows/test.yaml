@@ -19,6 +19,7 @@ jobs:
         run: echo ${{ inputs.message }}
 
   calculate:
+    name: "Calculating!"
     runs-on: ubuntu-latest
 
     steps:
