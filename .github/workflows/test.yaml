@@ -18,3 +18,10 @@ jobs:
       - name: Print the message
         run: echo ${{ inputs.message }}
 
+  calculate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Do some math
+        run: python3 -c "print(2**10)"
+
