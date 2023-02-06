@@ -1,5 +1,5 @@
 ---
-name: Test
+name: Tag Trigger Test
 
 on:
   push:
