@@ -1,0 +1,17 @@
+---
+name: Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print the message
+        run: echo "Reached here"
+
+
